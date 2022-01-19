@@ -1,13 +1,13 @@
 // Random computer selection
 function computerMove(){
-    // let options = ['rock','paper','scissor'];
-    // return options[Math.floor(Math.random()*options.length)]
-    return 'scissor'
+    let options = ['rock','paper','scissor'];
+    return options[Math.floor(Math.random()*options.length)]
+    //return 'scissor'
 }
 // Player selection
 function playerMove(){
     //let pselect = 'Rock';
-    let pselect = window.prompt("Enter your move    : ")
+    let pselect = window.prompt("Enter your move: ")
     pselect = pselect.toLowerCase();
 
     return pselect;
@@ -15,6 +15,9 @@ function playerMove(){
 // Game execution
 function playRound(computerSelection,playerSelection){
     let result = 'asasd';
+    console.log(playerSelection);
+    console.log(computerSelection);
+    
     if (computerSelection === playerSelection) {
         result = 'Draw';
     }
