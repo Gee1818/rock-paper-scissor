@@ -1,0 +1,33 @@
+*{
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 300px;
+    gap: 30px;
+    margin: 10px auto;
+
+}
+
+.score{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
